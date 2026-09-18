@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Campus Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>🎓 AI Campus Assistant</h1>
+        <p>Your Smart Campus Companion</p>
+    </header>
+
+    <main>
+        <div class="chat-box">
+            <h2>Campus AI 🤖</h2>
+
+            <div id="chat">
+                <p class="bot">
+                    Hi! How can I help you today?
+                </p>
+            </div>
+
+            <div class="input-area">
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Ask anything about campus..."
+                >
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
