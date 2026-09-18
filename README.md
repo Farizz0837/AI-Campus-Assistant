@@ -1,6 +1,1 @@
-APISSSSSSSSSSS WETPUT
-BANA KAU 
-HEHEHEHEHE
-kon
-pipit kau
-zahinnnn 
+
