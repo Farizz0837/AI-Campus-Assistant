@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+    <div class="hero">
+        <div class="logoot"></i>
+        </div>
+
+        <h1>NOVA AI</h1>
+
+        <p>
+            Pembantu AI Pintar Generasi Baharu.
+            Cepat, Bijak & Bersedia Membantu Anda.
+        </p>
+    </div>
+
+    <div class="chat-container">
+
+        <div class="chat-header">
+            🤖 NOVA AI
+        </div>
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="bot-message">
+                Hai! Saya NOVA AI. Apa yang boleh saya bantu hari ini?
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+            id="userInput"
+            placeholder="Tanya sesuatu..."
+            onkeypress="handleKey(event)">
+
+            <button onclick="sendMessage()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+script.jsscript>
+
+</body>
+</html>
